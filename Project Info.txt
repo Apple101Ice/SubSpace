@@ -1,0 +1,40 @@
+App Development Info
+
+Basic UI info
+- HomePage
+	- Appbar
+	- List View
+	
+Appbar contains Title, Favorite Button with icon and a Refresh Icon, also Back icon
+	- Title : Shows the Title of current view.
+	- Favorite : Navigates to Favorite view page.
+	- Refresh : Refresh the view and fetch and reload the data.
+	- Back : Shows on all view except Home(Blogs page), takes back to previous visited view.
+		
+List View contains the list of either all blogs or blogs marked favorites, also contains a previewblog view
+	- Each element in list are shown as Cards with images and title of blog.
+	- Also added favorite button to mark blog as favorite or unmark if already marked favorite. 
+	- Whenever a blog is selected either from blogs view or favorites view it show details of that blog in previewblog view.
+	
+
+Basic code logic
+App fetches blogs data from API and use 'Hive' to store and retreive data
+
+Note: As App uses hive, the can be used offline i.e. saved blogs can be viewed, given the data
+have been fetched once.
+
+App uses 2 Hive storage with the help of separate data adapter for each hive
+	1. For storing list of all blogs data
+	2. For storing list of ids of favorite blogs.
+	
+
+Error handling
+	- Some error handling is done by providing default values.
+	- Missing data or widget is replaced by placeholders.
+
+Important
+To release App for device proper permissions have been added
+	- For Android
+	  - INTERNET PERMISSION
+	  - STORAGE PERMISSION
+ 
