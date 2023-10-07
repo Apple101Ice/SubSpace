@@ -53,10 +53,8 @@ class MyAppState extends ChangeNotifier {
 
   void togglePage(int index) {
     if (index == 1) {
-      // If the target index is 1 (Favorites), set prevIndex to 0 (Blogs)
       prevIndex = 0;
     } else {
-      // Otherwise, set prevIndex to the current selectedIndex
       prevIndex = selectedIndex;
     }
     selectedIndex = index;
