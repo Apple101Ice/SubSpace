@@ -4,6 +4,9 @@ Same files can be found on github
 
 https://github.com/Apple101Ice/SubSpaceApp/tree/main
 
+App is provided as
+app-release.apk
+
 Basic UI info
 - HomePage
 	- Appbar
