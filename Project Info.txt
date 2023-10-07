@@ -1,5 +1,9 @@
 App Development Info
 
+Same files can be found on github
+
+https://github.com/Apple101Ice/SubSpaceApp/tree/main
+
 Basic UI info
 - HomePage
 	- Appbar
